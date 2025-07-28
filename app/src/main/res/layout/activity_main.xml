@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <WebView
+            android:id="@+id/webViewya"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.3" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+        </WebView>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <WebView
+            android:id="@+id/webViewrp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3" >
+
+        </WebView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
