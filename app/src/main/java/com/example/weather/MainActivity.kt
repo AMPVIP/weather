@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                 // Handle the case when nothing is selected
+            // Handle the case when nothing is selected
             }
         }
 
